@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 700 */
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+/* *******************
+praimary style 
+********************* */
+.flex{
+  display: flex;
+}
+
+/* praimary color */
+
+.orange-col{
+  color: #FEA301;
+}
+.skyblue-col{
+  color: #01ACFD;
+}
+
+.sec-col{
+  color: #05D4DF;
+}
+.thr-col{
+  color: #5D58EF;
+}
+
+/* praimary Button Style  */
+
+.praimaryBTN{
+  font-size: 1.25rem;
+  color: #ffffff;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 12px;
+}
+
+
+header {
+  max-width: 1160px;
+  margin: 0 auto;
+  
+}
+
+/* nav style start  */
+
+nav{
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+nav .logo{
+  align-items: center;
+  gap: 11px;
+}
+
+.logo img{
+  width: 62px;
+}
+
+.logo h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#mobiBTN{
+  display: none;
+}
+
+.navItmes li{
+  list-style: none;
+}
+
+.navItmes a{
+  text-decoration: none;
+  margin-right: 32px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.navBTN button{
+  background-color: #FEA301;
+}
+
+@media screen and (max-width:576px) {
+  .navh2,
+  .navItmes,
+  .navBTN{
+    display: none;
+  }
+
+  nav .logo{
+    width: 100%;
+    padding: 12px 16px;
+  }
+  .logo{
+    justify-content: space-between;
+  }
+  #mobiBTN{
+    display: block;
+    font-size: 1.875rem;
+  }
+
+}
+
+/* nav style end  */
