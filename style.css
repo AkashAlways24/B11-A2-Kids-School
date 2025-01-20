@@ -14,6 +14,15 @@
   
   font-style: normal;
 }
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* *******************
 praimary style 
 ********************* */
@@ -48,7 +57,7 @@ praimary style
 }
 
 
-header {
+header, main {
   max-width: 1160px;
   margin: 0 auto;
   
@@ -174,3 +183,119 @@ nav .logo{
     font-weight: 400;
   }
 }
+/* header end  */
+
+/* curriculum style start  */
+
+.curriculum
+{
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  padding: 60px 0;
+}
+
+.curriculum h2{
+  font-size: 2.875rem;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.curriCards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 28px;
+}
+
+.curriCard{
+  width: 367px;
+  height: 477px;
+  border-radius: 19px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  padding: 40px 52px;
+}
+
+.curriCard img{
+  width: 137px;
+}
+
+.curriCard h5{
+  font-size: 1.5325rem;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.curriCard p{
+  font-size: 0.9375rem;
+  line-height: 28px;
+}
+
+/* linearGradient style */
+.kinderCard{
+  background: linear-gradient(180deg, rgba(222,245,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 62%);
+  border: 1px solid #DEF5FF;
+}
+.kinderCard a{
+  font-size: 0.9375rem;
+  text-decoration: none;
+  color: #64C8FF;
+}
+
+.elementaryCard{
+  background: linear-gradient(180deg, rgba(255,244,220,1) 0%, rgba(255,255,255,1) 40%);
+  border: 1px solid #FFF4DC;
+}
+.elementaryCard a{
+  font-size: 0.9375rem;
+  text-decoration: none;
+  color: #F0AA00;
+}
+
+.middleCard{
+  background: linear-gradient(180deg, rgba(238,225,255,1) 0%, rgba(255,255,255,1) 40%);
+  border: 1px solid #F2E8FF;
+}
+.middleCard a{
+  font-size: 0.9375rem;
+  text-decoration: none;
+  color: #8700FF;
+}
+
+.aroIcone{
+  text-align: center;
+  font-size: 1.875rem;
+  padding-top: 80px;
+  
+}
+.aroIcone i{
+  background-color: #F0AA00;
+  color: #ffffff;
+  padding: 17px 22px;
+  border-radius: 50%;
+  
+}
+
+@media screen and (max-width:576px) {
+  .curriculum{
+    margin: 0 auto;
+  }
+  
+  .curriculum h2{
+    font-size: 1.625rem;
+  }
+
+  .curriCards{
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap:0 0  36px 0;
+  }
+
+  .aroIcone{
+    display: none;
+  }
+}
+
+/* curriculum style end  */
