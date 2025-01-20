@@ -101,7 +101,10 @@ nav .logo{
   .navBTN{
     display: none;
   }
-
+  nav{
+    border-bottom: 1px solid #FEA301;
+    margin: 0;
+  }
   nav .logo{
     width: 100%;
     padding: 12px 16px;
@@ -117,3 +120,57 @@ nav .logo{
 }
 
 /* nav style end  */
+
+
+.bannerSec{
+  align-items: center;
+  gap: 50px;
+}
+
+.bannerText h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 61px;
+  margin-bottom: 24px;
+}
+
+.bannerText p{
+  font-size: 1.25rem;
+  color: #111111;
+  margin-bottom: 24px;
+}
+
+.bannerText button{
+  background-color: #111111;
+  padding: 10px 47px;
+}
+
+.bannerImg img{
+  width: 470px;
+}
+
+
+@media screen and (max-width:576px) {
+  .bannerSec{
+    flex-direction: column-reverse;
+    padding: 20px 10px;
+  }
+
+  .bannerImg img{
+    max-width: 337px;
+  }
+
+  .bannerText{
+    max-width: 357px;
+    text-align: center;
+  }
+
+  .bannerText h1{
+    font-size: 2rem;
+    line-height: normal;
+  }
+  .bannerText p{
+    font-size: .875rem;
+    font-weight: 400;
+  }
+}
