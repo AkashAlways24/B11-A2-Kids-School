@@ -38,6 +38,9 @@ praimary style
 .skyblue-col{
   color: #01ACFD;
 }
+.green-col{
+  color: #95B226;
+}
 
 .sec-col{
   color: #05D4DF;
@@ -57,7 +60,7 @@ praimary style
 }
 
 
-header, main {
+header, .curriculum,.storiesSect {
   max-width: 1160px;
   margin: 0 auto;
   
@@ -299,3 +302,137 @@ nav .logo{
 }
 
 /* curriculum style end  */
+
+/* Our Stories start   */
+.storiesWith{
+  background: linear-gradient(0deg, rgba(254,163,1,0.30015756302521013) 0%, rgba(255,255,255,0.3029586834733894) 100%);
+}
+.storiesSect{
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+}
+.storiesSect h2{
+  font-size: 2.875rem;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.storieCards{
+  justify-content: space-between;
+}
+
+.storieCard1{
+  width: 540px;
+  height: 630px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.storieCard2{
+  width: 290px;
+  height: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.storieImg{
+  position: relative;
+
+}
+
+.storieImg img{
+  width: 100%;
+}
+
+.storieImg p{
+  font-size: 1rem;
+  line-height: 29px;
+  padding: 15px 20px;
+  border-radius: 48px;
+  color: #ffffff;
+  position: absolute;
+  left: 40px;
+  bottom: -20px;
+}
+.greenCol1{
+  background-color: #3CD8E8;
+}
+.greenCol2{
+  background-color: #95B226;
+}
+.greenCol3{
+  background-color: #5D58F0;
+}
+.greenCol4{
+  background-color: #95B226;
+}
+.greenCol5{
+  background-color: #95B226;
+}
+.maltipulCard{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.storieText{
+  padding: 0 38px;
+}
+.storieText h5{
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 57px 0;
+  margin-bottom: 57px;
+}
+
+.storieCard2 h5{
+  font-size: 1rem;
+  margin: 30px 0;
+  line-height: 25px;
+}
+
+.storieText p{
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 35px;
+}
+.storieBTN button{
+  background-color: #111111;
+  margin: 90px 0px 70px 0;
+
+}
+.storieBTN{
+  justify-content: center;
+}
+
+
+
+@media screen and (max-width:576px) {
+  .storieCard1{
+    display: none;
+  }
+
+  .maltipulCard{
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap:11px;
+  }
+  .storieCard2{
+    width: 173px;
+    height: 180px;
+  }
+  .storieCard2 p{
+    font-size: 0.5625rem;
+    padding: 6px 12px;
+  }
+
+  .storieText h5{
+    font-size: 0.5625rem;
+    line-height: 17px;
+  }
+}
+
+/* Our Stories end  */
