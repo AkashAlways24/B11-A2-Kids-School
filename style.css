@@ -60,7 +60,10 @@ praimary style
 }
 
 
-header, .curriculum,.storiesSect {
+header,
+.curriculum,
+.storiesSect,
+.footerItmes {
   max-width: 1160px;
   margin: 0 auto;
   
@@ -436,3 +439,56 @@ nav .logo{
 }
 
 /* Our Stories end  */
+
+/* footer start  */
+  
+footer{
+  background-color: #01ACFD;
+}
+.footerItmes{
+  padding: 123px 0 170px 0;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.footerItme{
+  width: 400px;
+  justify-content: space-between;
+}
+
+.fotterImg{
+  align-items: center;
+}
+.fotterText p{
+  margin-top: 35px;
+}
+
+.footerItme h4{
+  font-size: 1.625rem;
+  padding-bottom: 34px;
+}
+
+.footerItme li{
+  list-style: none;
+  padding-bottom: 20px;
+  
+}
+.fotterA{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width:576px) {
+
+.footerItmes{
+  flex-direction: column;
+  padding:60px 16px;
+  
+  }
+.fotterText p{
+  padding-top: 23px;
+  padding-bottom: 32px;
+  margin-top: 0;
+}
+}
+/* footer end */
