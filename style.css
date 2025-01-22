@@ -441,9 +441,7 @@ marquee{
     font-size: 0.5625rem;
     line-height: 17px;
   }
-  .marquee{
-    max-width: 570px;
-  }
+
 }
 
 /* Our Stories end  */
