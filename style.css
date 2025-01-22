@@ -63,8 +63,7 @@ praimary style
 header,
 .curriculum,
 .storiesSect,
-.footerItmes
-{
+.footerItmes {
   max-width: 1160px;
   margin: 0 auto;
   
@@ -495,7 +494,6 @@ footer{
   padding-top: 23px;
   padding-bottom: 32px;
   margin-top: 0;
-  
 }
 }
 /* footer end */
