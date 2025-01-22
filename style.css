@@ -411,10 +411,6 @@ nav .logo{
   justify-content: center;
 }
 
-marquee{
-  font-size: 1.875rem;
-  padding: 15px 0;
-}
 
 @media screen and (max-width:576px) {
   .storieCard1{
