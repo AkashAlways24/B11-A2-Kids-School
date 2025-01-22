@@ -205,6 +205,7 @@ nav .logo{
   font-weight: 500;
   text-align: center;
   padding-bottom: 80px;
+  
 }
 .curriCards{
   display: grid;
@@ -291,6 +292,7 @@ nav .logo{
   
   .curriculum h2{
     font-size: 1.625rem;
+    padding: 20px 0;
   }
 
   .curriCards{
@@ -416,7 +418,9 @@ nav .logo{
   .storieCard1{
     display: none;
   }
-
+  .storiesSect h2{
+    padding: 20px 0;
+  }
   .maltipulCard{
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
@@ -456,11 +460,16 @@ footer{
   justify-content: space-between;
 }
 
+.aboutSchool{
+  margin-left: 30px;
+}
+
 .fotterImg{
   align-items: center;
 }
 .fotterText p{
   margin-top: 35px;
+  padding-right: 10px;
 }
 
 .footerItme h4{
@@ -490,5 +499,9 @@ footer{
   padding-bottom: 32px;
   margin-top: 0;
 }
+.aboutSchool{
+  margin-left: 0;
+}
+
 }
 /* footer end */
