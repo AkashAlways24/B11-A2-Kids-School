@@ -63,8 +63,8 @@ praimary style
 header,
 .curriculum,
 .storiesSect,
-.footerItmes,
-marquee {
+.footerItmes
+{
   max-width: 1160px;
   margin: 0 auto;
   
@@ -415,7 +415,7 @@ nav .logo{
 marquee{
   font-size: 1.875rem;
   padding: 15px 0;
-  margin: 0 auto;
+  
 }
 
 @media screen and (max-width:576px) {
@@ -440,6 +440,9 @@ marquee{
   .storieText h5{
     font-size: 0.5625rem;
     line-height: 17px;
+  }
+  .marquee{
+    max-width: 576px;
   }
 }
 
