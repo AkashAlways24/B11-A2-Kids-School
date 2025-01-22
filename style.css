@@ -63,7 +63,8 @@ praimary style
 header,
 .curriculum,
 .storiesSect,
-.footerItmes {
+.footerItmes,
+marquee {
   max-width: 1160px;
   margin: 0 auto;
   
@@ -411,7 +412,10 @@ nav .logo{
   justify-content: center;
 }
 
-
+marquee{
+  font-size: 1.875rem;
+  padding: 15px 0;
+}
 
 @media screen and (max-width:576px) {
   .storieCard1{
@@ -489,6 +493,7 @@ footer{
   padding-top: 23px;
   padding-bottom: 32px;
   margin-top: 0;
+  
 }
 }
 /* footer end */
